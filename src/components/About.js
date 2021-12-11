@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaReact,FaUserGraduate } from 'react-icons/fa';
+import { FaReact} from 'react-icons/fa';
 import { SiJquery, SiPhp, SiHtml5, SiBootstrap, SiMysql } from 'react-icons/si';
 import { DiJavascript, DiCss3 } from 'react-icons/di';
 import { GiGraduateCap } from 'react-icons/gi';
@@ -28,7 +28,7 @@ export default function About() {
     };
 
     return (
-        <div>
+        <>
             <section id="about" className="about">
 
                 <h1 className="heading"> about <span>me</span> </h1>
@@ -123,14 +123,6 @@ export default function About() {
                         <SiMysql style={aboutMe} />
                         <h3>Mysql</h3>
                     </div>
-                    {/* <div className="box">
-        <SiHtml5 style={aboutMe}/>
-        <h3>html</h3>
-    </div>    
-    <div className="box">
-        <SiHtml5 style={aboutMe}/>
-        <h3>html</h3>
-    </div> */}
                     <div className="box">
                         <FaReact style={aboutMe} />
                         <h3>react.js</h3>
@@ -194,6 +186,6 @@ export default function About() {
             </section>
 
 
-        </div>
+        </>
     )
 }

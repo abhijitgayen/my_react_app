@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 
@@ -13,7 +13,7 @@ function App() {
 <div>
   <Header/>
   <Home/>
-  <About/>
+   <About/>
   <Work/>
 <Contact/>
 

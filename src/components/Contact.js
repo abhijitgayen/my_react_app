@@ -44,12 +44,12 @@ export default function Contact() {
 
         </div>
 
-        <div className="share">
+        {/*<div className="share">
             <a href="/#" className="fa fa-facebook-f"></a>
             <a href="/#" className="fa fa-twitter"></a>
             <a href="/#" className="fa fa-instagram"></a>
             <a href="/#" className="fa fa-linkedin"></a>
-        </div>
+        </div>*/}
 
     </div>
 
