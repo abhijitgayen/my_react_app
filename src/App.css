@@ -35,7 +35,7 @@ body {
 }
 
 section {
-  padding: 5rem 9%;
+  padding: 5.5rem 9%;
 }
 
 .heading {
@@ -95,6 +95,10 @@ section {
 }
 
 .navbar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
   padding: 2rem;
   font-size: 2rem;
   background: #1a1a1a;
@@ -107,7 +111,8 @@ section {
   transition: .2s linear;
 }
 
-.navbar a i {
+.navbar a .nav_icon {
+  font-size: 3.5rem;
   color: crimson;
   padding-right: .5rem;
 }
@@ -116,14 +121,8 @@ section {
   background: crimson;
 }
 
-.navbar a:hover i {
+.navbar a:hover .nav_icon {
   color: #fff;
-}
-.active:visited{
-  background-color: crimson;
-}
-.active:visited i{
- color: #fff;
 }
 
 
@@ -193,8 +192,6 @@ section {
   padding: 1rem 0;
   line-height: 2;
 }
-
-
 
 .about .row {
   display: -webkit-box;
@@ -664,6 +661,9 @@ section {
 }
 
 @media (max-width: 768px) {
+  section{
+    padding-top: 65px;
+  }
   .heading {
     font-size: 9vw;
   }
