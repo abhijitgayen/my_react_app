@@ -1,5 +1,5 @@
 import React from 'react';
-import user from '../images/abhijit.jpg';
+import user from '../images/user.jpg';
 import { BsFillPersonFill } from "react-icons/bs";
 import '../App.css'
 
@@ -10,15 +10,13 @@ function Home()
         height: '25px',
         width: '25px',
         fontSize: '25px',
-        textAlign: 'center',
         background: '#fff',
         color: 'crimson',
         borderRadius: '20%',
-
       };
     return (
          <>
-<section className="home-section">
+<section className="home-section" id="home">
   <div className="home">
     <div className="image">
         <img src={user} alt="Abhijit Gayen"/>

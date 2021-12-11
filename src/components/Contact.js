@@ -4,7 +4,7 @@ import '../App.css'
 export default function Contact() {
     return (
         <>
-<section className="contact">
+<section className="contact" id="contact">
 
 <h1 className="heading"> contact <span>me</span> </h1>
 
@@ -22,7 +22,7 @@ export default function Contact() {
                 <i className="fa fa-map"></i>
                 <div className="info">
                     <h3>address :</h3>
-                    <p>mumbai, india - 400104</p>
+                    <p>Chapla, West Bengal - 743349, India</p>
                 </div>
             </div>
 
@@ -30,7 +30,7 @@ export default function Contact() {
                 <i className="fa fa-envelope"></i>
                 <div className="info">
                     <h3>email :</h3>
-                    <p>sanashaikh@gmail.com</p>
+                    <p>agayen04@gmail.com</p>
                 </div>
             </div>
 
@@ -38,7 +38,7 @@ export default function Contact() {
                 <i className="fa fa-phone"></i>
                 <div className="info">
                     <h3>number :</h3>
-                    <p>+123-456-7890</p>
+                    <p>+91-7044136740</p>
                 </div>
             </div>
 

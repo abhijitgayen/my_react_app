@@ -11,7 +11,7 @@ function About()
     return (
 <div>
         {/*section portfolio */}
-<section className="portfolio" >
+<section className="portfolio" id="work">
 
 <h1 className="heading"><span>my</span> work </h1>
 
