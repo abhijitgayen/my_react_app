@@ -545,7 +545,7 @@ section {
 }
 
 .contact .row .info-container {
-  width: 40rem;
+  width: 50rem;
 }
 
 .contact .row .info-container h1 {
@@ -650,13 +650,15 @@ section {
   background: #fff;
   color: #0d0d0d;
 }
-
+.section{
+  padding-top:100px ;
+}
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
   }
   section {
-    padding: 3rem 2rem;
+    padding: 6rem 2rem;
   }
 }
 
@@ -676,6 +678,7 @@ section {
   .navbar a:hover {
     padding-bottom: 2rem;
   }
+
   .home {
     text-align: center;
     gap: 2rem;
@@ -694,11 +697,37 @@ section {
     width: 100%;
     margin-bottom: 1rem;
   }
+  .contact .row .info-container {
+    width: 90%;
+    margin: auto;
+  }
 }
 
 @media (max-width: 450px) {
+  .contact .share{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .contact .share a{
+    gap: 0;
+  }
+  .contact .row .info-container {
+    margin: auto;
+    width: 90%;
+  }
   html {
     font-size: 50%;
+  }
+}
+@media  (max-width:300px) {
+  html{
+    width: 300px;
+  }
+  body{
+    width: 300px;
   }
 }
 /*# sourceMappingURL=style.css.map */
